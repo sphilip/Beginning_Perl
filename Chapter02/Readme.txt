@@ -10,3 +10,13 @@ quotes.pl     ' ' vs " " when printing
 quotes2.pl    escaping characters
 quotes3.pl    q\<text>\ & qq\<text>\ for ' & " 
 quotes4.pl    user-defined delimiters for escaping characters
+
+heredoc.pl    example of here-document
+
+autoconvert.pl perl can convert string to # when needed
+octhex1.pl     exceptions to above rule	      
+octhex2.pl     introduce oct/hex functions
+
+arithop1.pl     arithmetic operator precedence & possible problems
+arithop2.pl	exponents
+arithop3.pl	modulo
