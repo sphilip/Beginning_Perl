@@ -20,3 +20,8 @@ octhex2.pl     introduce oct/hex functions
 arithop1.pl     arithmetic operator precedence & possible problems
 arithop2.pl	exponents
 arithop3.pl	modulo
+
+bitops.pl	and, or, xor, not (perl fails at not)
+
+bool1.pl	(in)equality, spaceship op
+bool2.pl	bool ops
