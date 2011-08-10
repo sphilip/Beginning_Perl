@@ -25,3 +25,8 @@ bitops.pl	and, or, xor, not (perl fails at not)
 
 bool1.pl	(in)equality, spaceship op
 bool2.pl	bool ops
+
+stringop1.pl	concat, repetition, etc.  
+stringop2.pl	Can convert any string to # by adding +0
+
+ascii.pl	convert string to ascii w/ord()
