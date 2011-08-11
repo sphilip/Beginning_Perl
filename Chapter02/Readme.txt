@@ -30,3 +30,8 @@ stringop1.pl	concat, repetition, etc.
 stringop2.pl	Can convert any string to # by adding +0
 
 ascii.pl	convert string to ascii w/ord()
+
+strcomp1.pl	comparing strings w/o 1st converting to ascii
+
+var.pl		using variables ((single/mult) assign, autoincrement)
+scope.pl	lexical (cool temp) variables 
