@@ -17,21 +17,27 @@ autoconvert.pl perl can convert string to # when needed
 octhex1.pl     exceptions to above rule	      
 octhex2.pl     introduce oct/hex functions
 
-arithop1.pl     arithmetic operator precedence & possible problems
-arithop2.pl	exponents
-arithop3.pl	modulo
+arithop1.pl    arithmetic operator precedence & possible problems
+arithop2.pl    exponents
+arithop3.pl    modulo
 
-bitops.pl	and, or, xor, not (perl fails at not)
+bitops.pl      and, or, xor, not (perl fails at not)
+bool1.pl       (in)equality, spaceship op
+bool2.pl       bool ops
 
-bool1.pl	(in)equality, spaceship op
-bool2.pl	bool ops
+stringop1.pl   concat, repetition, etc.  
+stringop2.pl   Can convert any string to # by adding +0
+ascii.pl       convert string to ascii w/ord()
+strcomp1.pl    comparing strings w/o 1st converting to ascii
 
-stringop1.pl	concat, repetition, etc.  
-stringop2.pl	Can convert any string to # by adding +0
+var.pl	       using variables ((single/mult) assign, autoincrement)
+scope.pl       lexical (cool temp) variables; use strict
+varint.pl      variable interpolation w/i " & placing text after a
+	       var name (ie. 8th when var name = #)	
 
-ascii.pl	convert string to ascii w/ord()
+currency1.pl   basic currency converter, everything implied in variables
+currency2.pl   read input from stdin & associated rules for stdin
 
-strcomp1.pl	comparing strings w/o 1st converting to ascii
-
-var.pl		using variables ((single/mult) assign, autoincrement)
-scope.pl	lexical (cool temp) variables 
+misc.pl	       chomp, chop
+exit.pl	       using exit()
+die.pl	       using die()
